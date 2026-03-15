@@ -1,2 +1,26 @@
-# Debug-a-Donation-form
-This is a task to debug a donation html form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donation Form</title>
+</head>
+<body>
+  <h1>Donation Form</h1>
+  <form>
+    
+    <label for="name">Full Name:</label>:
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="donation">Donation Amount ($):</label>
+    <input type="number" id="donation" name="amount" required>
+
+    <input type="checkbox" id="subscribe" name="newsletter">
+    <label for="subscribe"> Subscribe</label>
+
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
